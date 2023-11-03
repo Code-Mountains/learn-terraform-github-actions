@@ -1,0 +1,28 @@
+$ terraform init
+
+Initializing Terraform Cloud...
+
+The local Terraform version (1.6.3-dev) is not available in Terraform Cloud, or your
+organization does not have access to it. The new workspace will use 1.6.3. You can
+change this later in the workspace settings.
+
+Initializing provider plugins...
+- Finding hashicorp/random versions matching "3.4.3"...
+- Finding hashicorp/aws versions matching "4.52.0"...
+- Installing hashicorp/random v3.4.3...
+- Installed hashicorp/random v3.4.3 (signed by HashiCorp)
+- Installing hashicorp/aws v4.52.0...
+- Installed hashicorp/aws v4.52.0 (signed by HashiCorp)
+
+Terraform has created a lock file .terraform.lock.hcl to record the provider
+selections it made above. Include this file in your version control repository
+so that Terraform can guarantee to make the same selections by default when
+you run "terraform init" in the future.
+
+Terraform Cloud has been successfully initialized!
+
+You may now begin working with Terraform Cloud. Try running "terraform plan" to
+see any changes that are required for your infrastructure.
+
+If you ever set or change modules or Terraform Settings, run "terraform init"
+again to reinitialize your working directory.
