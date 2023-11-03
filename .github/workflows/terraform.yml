@@ -78,6 +78,6 @@ jobs:
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         run: terraform apply -auto-approve -input=false
         env:
-          AWS_ACCESS_KEY_ID: AKIAVUNSNNM2SKI752WZ
-          AWS_SECRET_ACCESS_KEY: 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
+          AWS_ACCESS_KEY_ID: AKIASKM2WWFELN6O2GHC
+          AWS_SECRET_ACCESS_KEY: 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
           AWS_DEFAULT_REGION: us-east-1
