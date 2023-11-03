@@ -1515,3 +1515,6 @@ $ aws ec2 describe-images --owners 099720109477 --query "Images[*].[ImageId,Name
 |  ami-039e2b78c244b2690|  ubuntu-pro-server/images/hvm-ssd/ubuntu-xenial-16.04-amd64-pro-server-20231010         |
 |  ami-0c0e8e92fc9bfb2aa|  ubuntu-pro-server/images/hvm-ssd/ubuntu-jammy-22.04-amd64-pro-server-20230502          |
 +-----------------------+-----------------------------------------------------------------------------------------+
+
+# Terraform Cloud API token
+T2wSs16JHGOEDQ.atlasv1.ghsruIVxRRSvyVLxMX0qRZnf7z8ZqOLXRReux8Eyif34NletaboF14NHDizJYrn9OVM
