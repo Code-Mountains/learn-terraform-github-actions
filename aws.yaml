@@ -1,0 +1,12 @@
+# aws iam get-user
+{
+    "User": {
+        "Path": "/",
+        "UserName": "cloud_user",
+        "UserId": "AIDAVUNSNNM2WYXUJGOS5",
+        "Arn": "arn:aws:iam::387458100021:user/cloud_user",
+        "CreateDate": "2023-11-03T00:40:50Z",
+        "PasswordLastUsed": "2023-11-03T01:42:00Z"
+    }
+}
+
