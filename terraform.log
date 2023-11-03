@@ -160,3 +160,34 @@ if you run "terraform apply" now.
 $ terraform plan -out=plan-output.tfplan
 
 $ terraform apply "plan-output.tfplan"
+
+Running apply in Terraform Cloud. Output will stream here. Pressing Ctrl-C
+will stop streaming the logs, but will not stop the apply running remotely.
+
+Preparing the remote apply...
+
+To view this run in a browser, visit:
+https://app.terraform.io/app/Code-Mountains/gh-actions-demo/runs/run-KnLt4P6BCBaYBa9o
+
+random_pet.sg: Creating...
+random_pet.sg: Creation complete after 0s [id=proud-javelin]
+aws_security_group.web-sg: Creating...
+aws_security_group.web-sg: Creation complete after 2s [id=sg-0e077f7385f814ef2]
+aws_instance.web: Creating...
+aws_instance.web: Still creating... [10s elapsed]
+aws_instance.web: Still creating... [20s elapsed]
+aws_instance.web: Still creating... [30s elapsed]
+aws_instance.web: Still creating... [40s elapsed]
+aws_instance.web: Creation complete after 42s [id=i-09f7fdeaf49fbfa29]
+
+Apply complete! Resources: 3 added, 0 changed, 0 destroyed.
+
+Outputs:
+web-address = "ec2-54-145-207-214.compute-1.amazonaws.com:8080"
+╷
+│ Error: Failed to read logs: unauthorized
+│ 
+│ Terraform Cloud returned an unexpected error. Sometimes this is caused by network connection problems, in which
+│ case you could retry the command. If the issue persists please open a support ticket to get help resolving the
+│ problem.
+╵
