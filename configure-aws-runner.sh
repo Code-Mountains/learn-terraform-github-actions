@@ -10,3 +10,12 @@ Configure
 Using your self-hosted runner
 # Use this YAML in your workflow file for each job
 runs-on: self-hosted
+
+
+./config.cmd --url https://github.com/Code-Mountains --token BDPP23LMOCBJU2QEWQWL4T3FISKS2
+
+
+./run.cmd
+
+
+./config.sh --url https://github.com/Code-Mountains --token BDPP23LMOCBJU2QEWQWL4T3FISKS2
