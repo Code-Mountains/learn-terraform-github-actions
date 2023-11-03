@@ -19,3 +19,6 @@ runs-on: self-hosted
 
 
 ./config.sh --url https://github.com/Code-Mountains --token BDPP23LMOCBJU2QEWQWL4T3FISKS2
+
+
+./config.sh remove --token BDPP23NZAORVWMO56T5MIKLFISLXG
