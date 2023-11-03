@@ -13,14 +13,6 @@ terraform {
     }
   }
   required_version = ">= 1.1.0"
-
-  cloud {
-    organization = "Code-Mountains"
-
-    workspaces {
-      name = "gh-actions-demo"
-    }
-  }
 }
 
 provider "aws" {
